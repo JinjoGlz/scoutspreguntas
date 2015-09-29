@@ -1,0 +1,435 @@
+
+body
+{
+  font-family: "Roboto Slab",Arial,sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    font-family: Montserrat,Arial,sans-serif;
+    font-weight: 400;
+}
+
+nav
+{
+  height: 64px; 
+}
+
+.navbar-inverse
+{
+  background-color: #49277d;
+  border-color: #49277d;  
+}
+
+.navbar-brand 
+{ 
+  height: 60px;
+  width: 300px;
+  padding: 0;
+}
+
+.navbar-brand>img {
+  display: inline-block;
+  margin-left: -30px;
+}
+
+.navbar-right
+{
+  margin-top: 10px;
+}
+
+/*VISION ROW */
+.vision
+{
+  margin-top: 4%;
+}
+
+.panel-default {
+  border-color: #fff; 
+}
+
+.footer {
+  width: 19%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mision{ margin-top: 80px;}
+
+.linea
+{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.footerClm
+{
+  padding: 10px;
+  padding-left: 7%;
+}
+
+.contenedor
+{ 
+  padding: 0 40px;
+  background-color: #fff;
+}
+
+.main 
+{
+  background-color: #fff;
+  padding-bottom: 70px;
+}
+
+.rowinicio{ margin-left: 0;}
+
+.panel-inicio { padding: 0 45px 35px 45px;}
+
+.sobra{ margin-bottom: 0;}
+
+.carousel
+{
+  box-shadow: 1px 4px 14px -2px rgba(0,0,0,0.65);
+  width: 1250px;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{margin-bottom: 0;}
+
+.equipo{border: none;}
+
+.footer-distributed { padding: 25px 50px;}
+
+
+
+.panel-info {
+  border: none;
+}
+
+.contacto{
+  margin-bottom: 70px;
+}
+
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #5383d3;;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators li{
+  border: 1px solid #5383d3;
+}
+
+.carousel-indicators .active{
+  background-color: #5383d3;
+}
+
+.descripcion
+{
+  text-align: left;
+}
+
+.fotos
+{
+  margin: 40px 0;
+}
+
+.label 
+{
+  margin-bottom: 15px;
+}
+
+section#contact {
+    /*background-color: #222;
+    background-image: url(../img/map-image.png);*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+.panel-title
+{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.fila{
+  margin-top: 25px;
+}
+
+.jumbotron{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/*---- Responsive----*/
+
+@media (max-width: 480px) { 
+  .panel-inicio{padding: 0;}
+
+  .carousel{width: 500px; margin-top: 15px;}
+
+  .navbar-brand>img {
+    margin-left: 30px;
+  }
+  .navbar-brand {
+    width:200px;
+  }
+}
+
+@media (max-width: 980px){
+  .carousel{width: 800px;}
+  .visible-xs {
+      display: inline-block !important;
+    }
+}
+ /* Portrait tablet to landscape and desktop
+}
+@media (min-width: 768px) and (max-width: 980px) {
+
+ }*/
+
+ /*Large desktop*/
+  @media (min-width: 1200px) {
+    .carousel{width: 1200px;}
+  }
+
+  @media (max-width: 767px) {
+    .navbar-collapse {background-color: #022f5a}
+    .carousel{width: 330px;}
+    .visible-xs {
+      display: inline-block !important;
+    }
+}
+
+
+.boton
+{
+  width: 80px;
+  height: 80px;
+  margin-top: -35px;
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -1;
+}
+
+.contenido
+{
+  height: 500px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+}
+
+#tabla
+{
+  height: auto;
+  width: 499px;
+  background-color: #dfac2f;
+  z-index: 1;
+  position: relative;  
+  padding-bottom: 80px;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+}
+
+#hoja
+{
+  height: auto;
+  width: 407px;
+  margin-left: 9.5%;
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+  padding-bottom: 15px;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+  box-shadow:11px 0px 0px #f4dfb0;
+}
+
+.side
+{
+  width: 200px;
+  height: 100px;
+  margin-right: 12%;
+  float: right;
+  margin-top: -25%;
+}
+
+.botonEnviar
+{
+  width: 60px;
+  height: 60px;
+
+}
+
+.titulo
+{
+  padding: 25px 0 0 0;
+  margin: 0 10px;
+  margin-left: 5%; 
+  text-transform: uppercase; 
+}
+
+.pregunta
+{
+  padding: 0 15px;
+}
+
+.respuestas
+{
+  padding: 0 20px;
+  margin: 0;
+}
+
+.imagen
+{
+  width: 300px;
+  height: 200px;
+  border-radius:5px;
+  margin-right: 5%;
+  margin-left: 12%;
+  margin-top: 7%;
+}
+
+.carousel
+{
+  box-shadow: none;
+  width: 407px;
+  margin: 0;
+}
+
+.carousel-control
+{
+  top: 110%;
+}
+
+.carousel-indicators
+{
+  top: 110%;
+}
+
+.carousel-indicators .active 
+{
+    background-color: #49277d;
+}
+
+.carousel-indicators li 
+{
+    border: 1px solid #49277d;
+}
+------------------------------
+
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar-right {
+    margin-right: 7%;
+}
