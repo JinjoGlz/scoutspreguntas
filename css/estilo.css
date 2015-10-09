@@ -10,9 +10,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {    
+h6 {
+    
     font-family: Montserrat,Arial,sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 nav
@@ -71,6 +72,12 @@ nav
 {
 	padding: 10px;
 	padding-left: 7%;
+}
+
+.contenedor
+{ 
+	padding: 0 40px;
+	background-color: #fff;
 }
 
 .main 
@@ -250,17 +257,6 @@ section#contact::-webkit-input-placeholder {
   z-index: -1;
 }
 
-.contenedor
-{
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 7%;
-  margin-bottom: 5%;
-}
-
 .contenido
 {
   height: 500px;
@@ -270,23 +266,6 @@ section#contact::-webkit-input-placeholder {
   margin-top: 3%;
 }
 
-.contenidoRes
-{
-  height: 500px;
-  width: 650px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 3%;  
-}
-
-.contenidoDis
-{
-  height: 190px;
-  width: 980px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 #tabla
 {
   height: auto;
@@ -294,7 +273,7 @@ section#contact::-webkit-input-placeholder {
   background-color: #dfac2f;
   z-index: 1;
   position: relative;  
-  padding-bottom: 90px;
+  padding-bottom: 80px;
   border-bottom-right-radius:5px;
   border-bottom-left-radius:5px;
 }
@@ -313,27 +292,11 @@ section#contact::-webkit-input-placeholder {
   box-shadow:11px 0px 0px #f4dfb0;
 }
 
-#mensaje
-{
-  color: #fff;
-  position: absolute; 
-  top: 150px; 
-  left: 33%; 
-}
-
 .side
 {
   width: 200px;
   height: 100px;
   margin-right: 12%;
-  float: right;
-  margin-top: -30%;
-}
-
-#sideCompartir
-{
-  width: 300px;
-  height: 100px;
   float: right;
   margin-top: -25%;
 }
@@ -383,7 +346,7 @@ section#contact::-webkit-input-placeholder {
 
 .carousel-control
 {
-  top: 107%;
+  top: 105%;
 }
 
 .carousel-indicators
@@ -469,23 +432,4 @@ section#contact::-webkit-input-placeholder {
 
 .navbar-right {
     margin-right: 7%;
-}
-
-.hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
