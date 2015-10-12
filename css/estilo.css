@@ -301,6 +301,24 @@ section#contact::-webkit-input-placeholder {
   border-bottom-left-radius:5px;
 }
 
+table{
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+
+th{
+  text-align: center;
+  font-size: 25px;
+}
+td{
+  border: solid 4px #49277d;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding:5px;
+}
+
 #hoja
 {
   height: auto;
