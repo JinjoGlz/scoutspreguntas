@@ -289,6 +289,13 @@ section#contact::-webkit-input-placeholder {
   margin-left: auto;
 }
 
+.botonesCuestionario
+{
+  margin-top: 5.5%;
+  margin-right: 10%;
+  width: 100px;
+  float: right;
+}
 #tabla
 {
   height: auto;
@@ -299,24 +306,6 @@ section#contact::-webkit-input-placeholder {
   padding-bottom: 90px;
   border-bottom-right-radius:5px;
   border-bottom-left-radius:5px;
-}
-
-table{
-  border-collapse: separate;
-  border-spacing: 8px;
-}
-
-th{
-  text-align: center;
-  font-size: 25px;
-}
-td{
-  border: solid 4px #49277d;
-  border-radius: 10px;
-  font-size: 20px;
-  text-align: center;
-  background-color: white;
-  padding:5px;
 }
 
 #hoja
@@ -365,6 +354,8 @@ td{
 
 }
 
+.btn{margin: 5px;}
+
 .titulo
 {
   padding: 25px 0 0 0;
@@ -375,7 +366,17 @@ td{
 
 #lista
 {
-  padding: 6% 28%;
+  float: right;
+  padding-top: 5%;
+  width: 55%;
+  color: #fff;
+}
+
+.preview
+{
+  width: 160px;
+  margin-left: 7%;
+  margin-top: 5%;
 }
 
 .pregunta
