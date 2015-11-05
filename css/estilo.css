@@ -20,6 +20,25 @@ nav
 	height: 64px;	
 }
 
+table{
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+
+th{
+  text-align: center;
+  font-size: 25px;
+}
+td{
+  border: solid 4px #49277d;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding:5px;
+}
+
+
 .navbar-inverse
 {
   background-color: #49277d;
@@ -220,6 +239,9 @@ section#contact::-webkit-input-placeholder {
  /*Large desktop*/
   @media (min-width: 1200px) {
   	.carousel{width: 1200px;}
+    .container{
+      width: 80%;
+    }
   }
 
   @media (max-width: 767px) {
@@ -333,8 +355,6 @@ section#contact::-webkit-input-placeholder {
 {
   width: 200px;
   height: 100px;
-  
-  
   margin-top: 12%;
 }
 
@@ -395,8 +415,7 @@ section#contact::-webkit-input-placeholder {
   height: 200px;
   border-radius:5px;
   padding-right: 5%;
-  margin-left: 4%;
-  margin-top: 7%;
+  padding-left: 5%
 }
 
 .carousel
