@@ -1,7 +1,7 @@
 
 body
 {
-  font-family: 'Lato',Arial,sans-serif;
+  font-family: "Roboto Slab",Arial,sans-serif;
 
 }
 
@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {    
-    font-family: 'Lato', Arial,sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
 
@@ -573,36 +573,4 @@ body
   background-color: #fe9601;
   margin: 10px 0;
     padding: 25px 0;
-}
-
-.preguntas
-{
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.contenedorPreg
-{ 
-    margin-top: 7%;
-    margin-bottom: 7%;
-    padding: 30px;
-    background-color: #fff;
-    border-radius: 8px;
-}
-
-.separador
-{
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.contenedorPreg> h1,h2,h3,h4
-{
-  display: inline-block;
-}
-
-.label
-{
-  margin-bottom: 0;
-  margin-top: 25px;
 }
